@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+.image{
+    width: 100%;
+    filter: grayscale(100%);
+}
+.image:hover{
+    filter: NONE;
+   transition: 1s;
+}
+.card{
+    width: 400px;
+    box-shadow: 2px 2px 20px grey;
+    
+}
+    
+.text{
+    padding: 15px;
+}
+.tittle{
+    margin: 0;
+    padding: 0;
+}
+.big-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
